@@ -4,7 +4,7 @@
 #include<Windows.h>
 #include"CPUState.h"
 #include"Segment.h"
-#include"Opcodes.h"
+#include"Opcodes.h" 
 #include"mov.h"
 #include"add.h"
 #include"inc.h"
@@ -13,7 +13,7 @@
 #include"neskolko_srazu.h"
 #include"pop.h"
 #include"push.h"
-#include"small.h"
+#include"short.h"
 #include"sub.h"
 #include"xchg.h"
 #include"xor.h"
@@ -109,6 +109,10 @@ bool emulateFile(std::string filePath)
 			return false;
 			break;
 		case resultOK:
+			break;
+		case programExit:
+			delete cpu;
+			return false;
 			break;
 
 		default:

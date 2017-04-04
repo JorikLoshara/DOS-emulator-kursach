@@ -63,11 +63,11 @@
     <ClCompile Include="dec.cpp">
       <Filter>Файлы исходного кода\Instructions</Filter>
     </ClCompile>
-    <ClCompile Include="small.cpp">
-      <Filter>Файлы исходного кода\Instructions</Filter>
-    </ClCompile>
     <ClCompile Include="int.cpp">
       <Filter>Заголовочные файлы\Interrupts</Filter>
+    </ClCompile>
+    <ClCompile Include="short.cpp">
+      <Filter>Файлы исходного кода\Instructions</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -107,14 +107,14 @@
     <ClInclude Include="dec.h">
       <Filter>Заголовочные файлы\Instructions</Filter>
     </ClInclude>
-    <ClInclude Include="small.h">
-      <Filter>Заголовочные файлы\Instructions</Filter>
-    </ClInclude>
     <ClInclude Include="int.h">
       <Filter>Заголовочные файлы\Interrupts</Filter>
     </ClInclude>
     <ClInclude Include="Opcodes.h">
       <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="short.h">
+      <Filter>Заголовочные файлы\Instructions</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

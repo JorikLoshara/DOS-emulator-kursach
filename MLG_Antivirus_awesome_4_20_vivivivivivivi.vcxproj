@@ -150,7 +150,7 @@
     <ClCompile Include="pop.cpp" />
     <ClCompile Include="push.cpp" />
     <ClCompile Include="Segment.cpp" />
-    <ClCompile Include="small.cpp" />
+    <ClCompile Include="short.cpp" />
     <ClCompile Include="sub.cpp" />
     <ClCompile Include="xchg.cpp" />
     <ClCompile Include="xor.cpp" />
@@ -167,7 +167,7 @@
     <ClInclude Include="pop.h" />
     <ClInclude Include="push.h" />
     <ClInclude Include="Segment.h" />
-    <ClInclude Include="small.h" />
+    <ClInclude Include="short.h" />
     <ClInclude Include="sub.h" />
     <ClInclude Include="xchg.h" />
     <ClInclude Include="xor.h" />

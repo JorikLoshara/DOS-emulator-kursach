@@ -1,5 +1,5 @@
 #include "int.h"
-#include "small.h"
+#include "short.h"
 
 asmResult Instructions::int_ib(CPUState * cpu, BYTE * instruction)
 {
@@ -18,11 +18,7 @@ asmResult Instructions::int_ib(CPUState * cpu, BYTE * instruction)
 	}
 }
 
-asmResult Instructions::nop(CPUState * cpu, BYTE * instruction)
-{
-	cpu->IncreaseIP(1);
-	return resultOK;
-}
+
 
 asmResult Instructions::int21h(CPUState * cpu, BYTE * instruction)
 {
@@ -47,4 +43,9 @@ asmResult Instructions::int20h(CPUState * cpu, BYTE * instruction)
 	std::cout << "Program terminated\n";
 	system("pause");
 	return programExit;
+}
+
+asmResult Instructions::int_3(CPUState * cpu, BYTE * instruction)
+{
+	return notImplemented;
 }
